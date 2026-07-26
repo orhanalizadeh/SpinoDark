@@ -15,7 +15,7 @@
     "theme",
     "dark",
     "color-theme",
-    "carbon",
+    "Spino",
     "vscode"
   ],
   "icon": "icon.png",
@@ -26,19 +26,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Carbon Theme",
+        "label": "Spino Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Carbon Theme-color-theme.json"
+        "path": "./themes/Spino Dark-color-theme.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/orhanalizadeh/carbon-theme.git"
+    "url": "https://github.com/orhanalizadeh/SpinoDark.git"
   },
-  "homepage": "https://github.com/orhanalizadeh/carbon-theme",
+  "homepage": "https://github.com/orhanalizadeh/SpinoDark",
   "bugs": {
-    "url": "https://github.com/orhanalizadeh/carbon-theme/issues"
+    "url": "https://github.com/orhanalizadeh/SpinoDark/issues"
   },
   "license": "MIT"
 }
