@@ -1,0 +1,44 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "spino-theme",
+  "displayName": "Spino Theme",
+  "description": "A modern, elegant, and carefully crafted dark theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "orhanalizadeh",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "color-theme",
+    "carbon",
+    "vscode"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#111111",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Carbon Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Carbon Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orhanalizadeh/carbon-theme.git"
+  },
+  "homepage": "https://github.com/orhanalizadeh/carbon-theme",
+  "bugs": {
+    "url": "https://github.com/orhanalizadeh/carbon-theme/issues"
+  },
+  "license": "MIT"
+}
